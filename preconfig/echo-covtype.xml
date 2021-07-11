@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/echo.jar</paths>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/pcf-categorizers.jar</paths>
+    <interceptableClassName>ECHOInterceptable</interceptableClassName>
+    <highLevelCategorizerClassName>NDNCentroidRisk</highLevelCategorizerClassName>
+    <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
+    <interceptableNominalParameters>
+        <parameterName>Dataset CSV's (separated by ';')</parameterName>
+        <value>./datasets/covtype.csv</value>
+    </interceptableNominalParameters>
+    <interceptableNumericParameters>
+        <parameterName>Multi class novelty detection {0,1}</parameterName>
+        <value>1.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Log interval</parameterName>
+        <value>1000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>AL threshold</parameterName>
+        <value>0.4</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Novelty decision model {0,1}</parameterName>
+        <value>1.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>K</parameterName>
+        <value>25.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Q</parameterName>
+        <value>400.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Gamma</parameterName>
+        <value>0.5</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Sensitivity</parameterName>
+        <value>0.001</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Outlier buffer max size</parameterName>
+        <value>2000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Seed</parameterName>
+        <value>0.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Confidence threshold</parameterName>
+        <value>0.8</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Chunk size</parameterName>
+        <value>9409.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Window max size</parameterName>
+        <value>1000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Ensemble size</parameterName>
+        <value>5.0</value>
+    </interceptableNumericParameters>
+    <highLevelCategorizerNumericParameters>
+        <parameterName>Dimensionality</parameterName>
+        <value>1.0</value>
+    </highLevelCategorizerNumericParameters>
+    <highLevelCategorizerNumericParameters>
+        <parameterName>Threshold</parameterName>
+        <value>0.9</value>
+    </highLevelCategorizerNumericParameters>
+    <lowLevelCategorizerNumericParameters>
+        <parameterName>K</parameterName>
+        <value>1.0</value>
+    </lowLevelCategorizerNumericParameters>
+    <multipleExecutions>false</multipleExecutions>
+    <variableParameterName>Multi class novelty detection {0,1}</variableParameterName>
+    <variableParameterType>Interceptable</variableParameterType>
+    <variationIncrement>0.0</variationIncrement>
+    <variationTimes>10</variationTimes>
+</configuration>
