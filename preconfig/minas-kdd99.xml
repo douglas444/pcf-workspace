@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/minas.jar</paths>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/pcf-categorizers.jar</paths>
+    <interceptableClassName>MINASInterceptable</interceptableClassName>
+    <highLevelCategorizerClassName>NNCentroidRisk</highLevelCategorizerClassName>
+    <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
+    <interceptableNominalParameters>
+        <parameterName>Dataset CSV's (separated by ';')</parameterName>
+        <value>./datasets/kdd99.csv</value>
+    </interceptableNominalParameters>
+    <interceptableNumericParameters>
+        <parameterName>Minimum cluster size</parameterName>
+        <value>20.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Heater initial buffer size</parameterName>
+        <value>6000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Log interval</parameterName>
+        <value>1000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>PCF tight integration {0,1}</parameterName>
+        <value>0.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Window size</parameterName>
+        <value>1000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Sample lifespan</parameterName>
+        <value>4000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Incrementally update {0,1}</parameterName>
+        <value>0.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Heater capacity</parameterName>
+        <value>50895.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Number of cluster for ND</parameterName>
+        <value>100.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Temporary memory max size</parameterName>
+        <value>2000.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Heater clusters per label</parameterName>
+        <value>100.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Seed</parameterName>
+        <value>0.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Micro cluster lifespan</parameterName>
+        <value>1000.0</value>
+    </interceptableNumericParameters>
+    <highLevelCategorizerNumericParameters>
+        <parameterName>Dimensionality</parameterName>
+        <value>1.0</value>
+    </highLevelCategorizerNumericParameters>
+    <highLevelCategorizerNumericParameters>
+        <parameterName>Threshold</parameterName>
+        <value>0.8</value>
+    </highLevelCategorizerNumericParameters>
+    <lowLevelCategorizerNumericParameters>
+        <parameterName>K</parameterName>
+        <value>1.0</value>
+    </lowLevelCategorizerNumericParameters>
+    <multipleExecutions>false</multipleExecutions>
+    <variableParameterName>Minimum cluster size</variableParameterName>
+    <variableParameterType>Interceptable</variableParameterType>
+    <variationIncrement>0.0</variationIncrement>
+    <variationTimes>1</variationTimes>
+</configuration>
