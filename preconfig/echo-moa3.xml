@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-    <paths>./implementations/echo.jar</paths>
-    <paths>./implementations/pcf-categorizers.jar</paths>
+    <paths>./implementations/echo-jar-with-dependencies.jar</paths>
+    <paths>./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
     <interceptableClassName>MINASInterceptable</interceptableClassName>
     <highLevelCategorizerClassName>NNCentroidRisk</highLevelCategorizerClassName>
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>

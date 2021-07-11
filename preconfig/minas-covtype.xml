@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/minas.jar</paths>
-    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/pcf-categorizers.jar</paths>
+    <paths>./implementations/minas-jar-with-dependencies.jar</paths>
+    <paths>./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
     <interceptableClassName>MINASInterceptable</interceptableClassName>
     <highLevelCategorizerClassName>NNCentroidRisk</highLevelCategorizerClassName>
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
