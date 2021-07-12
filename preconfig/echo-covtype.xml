@@ -71,7 +71,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Window max size</parameterName>
-        <value>2000.0</value>
+        <value>9409.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Ensemble size</parameterName>
