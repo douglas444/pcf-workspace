@@ -7,7 +7,7 @@
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
     <interceptableNominalParameters>
         <parameterName>Dataset CSV's (separated by ';')</parameterName>
-        <value>./datasets/covtype.csv</value>
+        <value>./datasets/SynEDC.csv</value>
     </interceptableNominalParameters>
     <interceptableNumericParameters>
         <parameterName>Multi class novelty detection {0,1}</parameterName>
@@ -19,7 +19,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>AL threshold</parameterName>
-        <value>0.4</value>
+        <value>0.2</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Novelty decision model {0,1}</parameterName>
@@ -63,7 +63,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Chunk size</parameterName>
-        <value>9409.0</value>
+        <value>8000.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>MCIKmeans max iterations</parameterName>

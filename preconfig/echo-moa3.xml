@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-    <paths>./implementations/echo-jar-with-dependencies.jar</paths>
-    <paths>./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
-    <interceptableClassName>MINASInterceptable</interceptableClassName>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/echo-jar-with-dependencies.jar</paths>
+    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
+    <interceptableClassName>ECHOInterceptable</interceptableClassName>
     <highLevelCategorizerClassName>NNCentroidRisk</highLevelCategorizerClassName>
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
     <interceptableNominalParameters>
@@ -19,7 +19,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>AL threshold</parameterName>
-        <value>0.2</value>
+        <value>0.4</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Novelty decision model {0,1}</parameterName>
@@ -30,12 +30,20 @@
         <value>25.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
+        <parameterName>Centroids percentage</parameterName>
+        <value>10.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
         <parameterName>Q</parameterName>
         <value>400.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Gamma</parameterName>
         <value>0.5</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
+        <parameterName>Conditional mode max iterations</parameterName>
+        <value>10.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Sensitivity</parameterName>
@@ -58,8 +66,12 @@
         <value>2000.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
+        <parameterName>MCIKmeans max iterations</parameterName>
+        <value>10.0</value>
+    </interceptableNumericParameters>
+    <interceptableNumericParameters>
         <parameterName>Window max size</parameterName>
-        <value>1000.0</value>
+        <value>2000.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Ensemble size</parameterName>
@@ -73,10 +85,6 @@
         <parameterName>Threshold</parameterName>
         <value>0.8</value>
     </highLevelCategorizerNumericParameters>
-    <lowLevelCategorizerNumericParameters>
-        <parameterName>Seed</parameterName>
-        <value>0.0</value>
-    </lowLevelCategorizerNumericParameters>
     <lowLevelCategorizerNumericParameters>
         <parameterName>K</parameterName>
         <value>1.0</value>
