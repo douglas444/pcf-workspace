@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/echo-jar-with-dependencies.jar</paths>
-    <paths>/home/douglas/Dropbox/workspace/pcf-workspace/./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
+    <paths>./implementations/echo-jar-with-dependencies.jar</paths>
+    <paths>./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
     <interceptableClassName>ECHOInterceptable</interceptableClassName>
     <highLevelCategorizerClassName>NNCentroidRisk</highLevelCategorizerClassName>
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
