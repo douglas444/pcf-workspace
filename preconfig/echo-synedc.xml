@@ -3,7 +3,7 @@
     <paths>./implementations/echo-jar-with-dependencies.jar</paths>
     <paths>./implementations/pcf-categorizers-jar-with-dependencies.jar</paths>
     <interceptableClassName>ECHOInterceptable</interceptableClassName>
-    <highLevelCategorizerClassName>NDNCentroidRisk</highLevelCategorizerClassName>
+    <highLevelCategorizerClassName>NNAverageRisk</highLevelCategorizerClassName>
     <lowLevelCategorizerClassName>KMedoids</lowLevelCategorizerClassName>
     <interceptableNominalParameters>
         <parameterName>Dataset CSV's (separated by ';')</parameterName>
@@ -19,7 +19,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>AL threshold</parameterName>
-        <value>0.2</value>
+        <value>0.4</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Novelty decision model {0,1}</parameterName>
@@ -83,7 +83,7 @@
     </highLevelCategorizerNumericParameters>
     <highLevelCategorizerNumericParameters>
         <parameterName>Threshold</parameterName>
-        <value>0.9</value>
+        <value>0.8</value>
     </highLevelCategorizerNumericParameters>
     <lowLevelCategorizerNumericParameters>
         <parameterName>K</parameterName>
