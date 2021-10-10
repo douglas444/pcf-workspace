@@ -63,7 +63,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Chunk size</parameterName>
-        <value>10179.0</value>
+        <value>9799.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>MCIKmeans max iterations</parameterName>
@@ -71,7 +71,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Window max size</parameterName>
-        <value>10179.0</value>
+        <value>9799.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Ensemble size</parameterName>

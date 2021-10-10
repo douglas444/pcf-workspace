@@ -39,7 +39,7 @@
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Heater capacity</parameterName>
-        <value>50895.0</value>
+        <value>48993.0</value>
     </interceptableNumericParameters>
     <interceptableNumericParameters>
         <parameterName>Number of cluster for ND</parameterName>
